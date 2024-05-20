@@ -12,4 +12,10 @@ public class TestController {
 
         return ResponseEntity.ok("Hello Docker!");
     }
+
+    @GetMapping("/test2")
+    public ResponseEntity<String> test2() {
+
+        return ResponseEntity.ok("Hello Docker!");
+    }
 }
